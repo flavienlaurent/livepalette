@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".MainActivity">
+
+    <TextureView
+        android:id="@+id/texture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.flavienlaurent.livepalette.FlowLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:horizontalSpacing="10dp"
+        app:verticalSpacing="10dp">
+
+        <com.flavienlaurent.livepalette.ColorView
+            android:id="@+id/vibrant"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="10dp"
+            app:colorName="Vibrant"/>
+
+        <com.flavienlaurent.livepalette.ColorView
+            android:id="@+id/dark_vibrant"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="10dp"
+            app:colorName="DarkVibrant"/>
+
+        <com.flavienlaurent.livepalette.ColorView
+            android:id="@+id/light_vibrant"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="10dp"
+            app:colorName="LightVibrant"/>
+
+        <com.flavienlaurent.livepalette.ColorView
+            android:id="@+id/muted"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="10dp"
+            app:colorName="Muted"/>
+
+        <com.flavienlaurent.livepalette.ColorView
+            android:id="@+id/dark_muted"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="10dp"
+            app:colorName="DarkMuted"/>
+
+        <com.flavienlaurent.livepalette.ColorView
+            android:id="@+id/light_muted"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="10dp"
+            app:colorName="LightMuted"/>
+    </com.flavienlaurent.livepalette.FlowLayout>
+</FrameLayout>
