@@ -10,7 +10,7 @@ android-support-v7-palette is subject to the Apache License, Version 2.0.
 License
 -----------
 
-    Copyright 2013 Flavien Laurent
+    Copyright 2014 Flavien Laurent
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
