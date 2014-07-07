@@ -130,7 +130,7 @@ public class MainActivity extends Activity implements TextureView.SurfaceTexture
                         return;
                     }
                     setColor(mVibrantView, palette.getVibrantColor());
-                    setColor(mMutedView, palette.getVibrantColor());
+                    setColor(mMutedView, palette.getMutedColor());
                     setColor(mLightMutedView, palette.getLightMutedColor());
                     setColor(mLightVibrantView, palette.getLightVibrantColor());
                     setColor(mDarkMutedView, palette.getDarkMutedColor());
